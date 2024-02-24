@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <>
-      <StatusBar backgroundColor='#999' />
+      <StatusBar backgroundColor='#999' translucent = {false}/>
       <SafeAreaView style={styles.container}>
 
         <Text style={styles.estiloTexto}>Open up App.js to start working on your app!</Text>
